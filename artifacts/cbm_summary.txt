@@ -1,0 +1,25 @@
+n_concepts_total = 27
+n_concepts_used  = 27
+n_concepts_skipped(single-class-train) = 0
+
+Concept test accuracy (top 10 shown):
+  c_frequent_ed: 1.0000
+  c_recent_inpatient: 1.0000
+  c_high_util: 1.0000
+  c_ckd: 0.9228
+  c_diabetes: 0.9040
+  c_obesity: 0.8371
+  c_htn: 0.8305
+  c_cad_heart: 0.8132
+  c_statin_rx: 0.8043
+  c_stroke: 0.7818
+
+CBM test metrics (label model trained on *predicted* concepts):
+  CBM_pred AUROC: 0.7497
+  CBM_pred AUPRC: 0.0589
+  CBM_pred Brier: 0.1814
+
+Oracle upper bound (label model trained on *true* concepts):
+  CBM_oracle AUROC: 0.8123
+  CBM_oracle AUPRC: 0.0770
+  CBM_oracle Brier: 0.1847
