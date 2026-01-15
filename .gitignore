@@ -1,0 +1,23 @@
+# ---- Python / env ----
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- OS / IDE ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Data (do NOT commit) ----
+data/
+
+# ---- Large run artifacts (do NOT commit) ----
+artifacts/**/val_predictions*.csv
+artifacts/**/test_predictions*.csv
+artifacts/**/splits*.csv
+artifacts/**/*.joblib
+
+# ---- Optional: keep only small "report" artifacts ----
+# (Do nothing here, meaning: txt/png will be committed by default)
